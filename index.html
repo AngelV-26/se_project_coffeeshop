@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale= 1.0">
     <meta name="description" content="Enjoy delectable brewed coffee from the freshest coffee beans!">
-    <meta name="keywords" content="html, css">
+    <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Angelo Vasquez">
-    <title> Cafe Che Buono</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,13 +15,71 @@
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="favicon.ico"/>
+    <title> Cafe Che Buono </title>
 </head>
 <body>
 <div class="page">
-  <p>Testing..</p>
-  <header class="header"></header>
+  <header class="header">
+  <nav class="nav">
+  <img
+  src="./images/logo_coffeeshop_dark.svg"
+  alt="Coffeeshop logo"
+  class="nav__logo"
+  />
+  <ul class="nav__links">
+    <li><a href="#Recipes-id" class="nav__link">Recipes</a></li>
+    <li><a href="#Table-id" class="nav__link">Book a Table</a></li>
+    <li><a href="#Menu-id" class="nav__link">Menu</a></li>
+    <li><a href="#Contacts-id" class="nav__link">Contacts</a></li>
+  </ul>
+  </nav>
+ <h1 class="header__title">
+  <span class="header__span-accent">Speacialty Coffee</span> in the Triple Peaks Library</h1>
+ <p class="header__description">
+  Welcome to our study zone! We've got the coffee to energize you
+  and the cozy vibes to help you get creative.
+ </p>
+ <img
+ src="./images/inside_coffee_shop.png"
+ alt="Illustration Inside the Coffee Shop"
+ class="header__image"
+ />
+ <div class="header__footer">
+  <div>
+    <p class="header__paragraphs">Hours:</p>
+    <p class="header__paragraphs">Monday - Friday (10:00-19:00)</p>
+    <p class="header__paragraphs">Saturday - Sunday (11:00-18:00)</p>
+  </div>
+  <p class="header__paragraphs">200 Success Avenue, The Town of Triple Peaks</p>
+ </div>
+ </header>
   <main class="content">
-      <section class="recipes"></section>
+      <section class="recipes">
+        <h2 class="recipes__title">Recipes</h2>
+        <p class="recipes__subtitle">
+          Check out some recipes we've collected for your home-brewing convinience:
+        </p>
+        <div class="recipes__videos">
+          <div>
+            <iframe
+            src="https://www.youtube.com/embed/j6VlT_jUVPc?si=4CV6XenxOqPYz6EI"
+             title="YouTube video player"
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+             referrerpolicy="strict-origin-when-cross-origin"
+             allowfullscreen class="recipes__iframe"></iframe>
+            <p class="recipes__video-caption"><span>Aeropress recipe</span>  ~5 min</p>
+          </div>
+
+          <div>
+            <iframe
+            src="https://www.youtube.com/embed/st571DYYTR8?si=V0g3zpMaO8B5bsyK"
+            title="YouTube video player"  allow="accelerometer;
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+            web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="recipes__iframe"> </iframe>
+            <p class="recipes__video-caption">French press recipe ~15 min</p>
+          </div>
+        </div>
+      </section>
       <section class="reservation"></section>
       <section class="menu"></section>
       <section class="about"></section>
