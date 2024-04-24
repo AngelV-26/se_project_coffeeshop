@@ -13,6 +13,7 @@ This is my second project in the Software Engineering program at TripleTen. It w
 
 ## Plan on improving the project
 
-I plan on changing the Title to make the project more unique.
-I also plan on styling the CSS to my liking in the forms section so everything is centered even the placeholders. 
-I believe this looks better, but if I have to change it it is fine. 
+I plan on changing the Title to Cafe Che Buono to make it more unique.
+I was also thinking of changing the forms to center the place holder to be different.
+I think the coffeeshop can be shared on TikTok as well, instead of just Instagram and Facebook.
+There are a couple of menu items and prices that I changed as well.
