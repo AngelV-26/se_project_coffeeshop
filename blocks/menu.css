@@ -1,15 +1,14 @@
-.menu{
+.menu {
 background-color: #fff;
 background-image: url(../images/background_menu.svg);
 background-size: cover;
 padding: 100px 0 100px;
 }
 
-
 .menu__title {
   text-align: center;
   margin: 0 0 24px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -20,7 +19,7 @@ padding: 100px 0 100px;
   max-width: 780px;
   text-align: center;
   margin: 0 auto 100px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -35,7 +34,7 @@ padding: 100px 0 100px;
   padding: 0;
   margin: 0;
   list-style-type: none;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;

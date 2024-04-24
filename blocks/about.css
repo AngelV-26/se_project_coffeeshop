@@ -8,7 +8,7 @@
   }
 
   100% {
-    opacity: 1;
+    opacity: 0;
     scale: 1.1;
   }
 }
@@ -22,7 +22,7 @@
 }
 
 .about__title {
-  font-family: "Inter";
+  font-family:"Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -37,7 +37,7 @@
 
 .about__content {
   list-style-type: none;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -51,6 +51,10 @@
 }
 
 .about__paragraph {
+  margin: 0;
+}
+
+.about__paragraph:not(:last-child) {
   margin-bottom: 20px;
 }
 

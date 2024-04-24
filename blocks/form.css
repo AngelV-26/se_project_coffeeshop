@@ -9,9 +9,15 @@
 }
 
 .form__label {
-  margin-bottom: 32px;
-  display: block;
+margin-bottom: 32px;
+display: block;
+font-family: "Inter", Arial, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
 }
+
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
@@ -22,30 +28,33 @@
   border-radius: 4px;
   display: block;
   padding: 10px;
-  box-sizing: border-box;
   width: 100%;
   margin-top: 8px;
-  height: 60px;
-  text-align: left;
+  height: 40px;
+  max-width: 385px;
+  margin-bottom: 32px;
 }
 
-.form__input:hover {
-  opacity: 100 to 70%;
+input::placeholder{
+  color: #838383;
 }
 
 .form__button {
   border-radius: 4px;
   width: 100%;
   height: 60px;
-  padding: 0;
-  margin-bottom: 32px;
-  font-family: Inter;
+  margin: 0 0 32px;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   background-color: #2f80ed;
   color: white;
+}
+
+.form__button:hover {
+  opacity: 100 to 70%;
 }
 
 .form__checkbox {
