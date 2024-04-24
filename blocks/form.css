@@ -3,9 +3,9 @@
 }
 
 .form__fieldset {
-padding: 0;
-margin: 0;
-border: none;
+  padding: 0;
+  margin: 0;
+  border: none;
 }
 
 .form__label {
@@ -13,15 +13,15 @@ border: none;
   display: block;
 }
 .form__label_type_checkbox {
-display: flex;
-justify-content: center;
-gap: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
 }
 
 .form__input {
   border-radius: 4px;
   display: block;
-  padding: 0;
+  padding: 10px;
   box-sizing: border-box;
   width: 100%;
   margin-top: 8px;
@@ -29,7 +29,7 @@ gap: 12px;
   text-align: left;
 }
 
-.form__input:hover{
+.form__input:hover {
   opacity: 100 to 70%;
 }
 
@@ -44,13 +44,13 @@ gap: 12px;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  background-color: #2f80ED;
+  background-color: #2f80ed;
   color: white;
 }
 
 .form__checkbox {
   border-radius: 2px;
-  background-color: #2f80ED;
+  background-color: #2f80ed;
   background-image: url(../images/check.svg);
   width: 20px;
   height: 20px;
