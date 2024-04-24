@@ -5,12 +5,14 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background: #fff url("../images/background_header.svg") no-repeat center/cover;
+
 }
 
 
 .header__image {
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   top: 124px;
   right: 5px;
   max-width: 646px;
