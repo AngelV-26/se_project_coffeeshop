@@ -23,7 +23,7 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 .footer__list {
@@ -33,6 +33,9 @@
 
 .footer__list-item {
   list-style-type: none;
+}
+
+.footer__list-item:not(:last-child) {
   margin-bottom: 16px;
 }
 
@@ -63,5 +66,5 @@
   font-size: 16px;
   line-height: 20px;
   color: white;
-  margin: 108px 80px 60px;
+  padding: 108px 80px 60px;
 }

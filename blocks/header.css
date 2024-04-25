@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   background: #fff url("../images/background_header.svg") no-repeat center/cover;
+  box-sizing: border-box;
 }
 
 .header__image {
@@ -37,6 +38,7 @@
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
+  z-index: 2;
 }
 
 .header__span-accent {
@@ -54,6 +56,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  z-index: 2;
 }
 
 .header__paragraphs {
