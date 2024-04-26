@@ -22,11 +22,13 @@
   display: flex;
   justify-content: center;
   gap: 12px;
+  margin: 0;
 }
 
 .form__input {
   border-radius: 4px;
   box-sizing: border-box;
+  border: 1px solid #838383;
   display: block;
   padding: 10px;
   width: 100%;
@@ -58,12 +60,11 @@
   color: white;
   box-sizing: border-box;
   border: medium none;
+  transition: opacity ease-in-out 2s;
 }
 
 .form__button:hover {
-  opacity: 100% to 70%;
-  color: #2f80ed;
-  transition: ease-in-out 2s;
+  opacity: 70%;
 }
 
 .form__checkbox {
@@ -72,4 +73,9 @@
   background-image: url(../images/check.svg);
   width: 20px;
   height: 20px;
+}
+
+.form__checkbox:hover {
+  color: #2f80ed;
+  transition: ease-in-out infinite;
 }
