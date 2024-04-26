@@ -47,6 +47,7 @@
   line-height: 20px;
   color: #fff;
   text-decoration: none;
+  transition: color ease-in-out 1s;
 }
 
 .footer__social-link:hover {

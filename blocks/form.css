@@ -73,9 +73,5 @@
   background-image: url(../images/check.svg);
   width: 20px;
   height: 20px;
-}
-
-.form__checkbox:hover {
-  color: #2f80ed;
   transition: ease-in-out infinite;
 }
