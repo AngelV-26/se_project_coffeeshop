@@ -30,13 +30,17 @@
   display: block;
   padding: 10px;
   width: 100%;
-  margin-top: 8px;
   height: 60px;
   max-width: 385px;
-  margin-bottom: 32px;
+  margin: 8px 0 32px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-.placeholder {
+.form__input::placeholder {
   color: #838383;
 }
 
@@ -53,10 +57,13 @@
   background-color: #2f80ed;
   color: white;
   box-sizing: border-box;
+  border: medium none;
 }
 
 .form__button:hover {
-  color: blue;
+  opacity: 100% to 70%;
+  color: #2f80ed;
+  transition: ease-in-out 2s;
 }
 
 .form__checkbox {
